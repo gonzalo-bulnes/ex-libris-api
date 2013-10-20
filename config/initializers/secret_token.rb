@@ -16,4 +16,5 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-ExLibrisApi::Application.config.secret_token = '7f67f2aa2d4f85ebcc6fd05093872d15d8aaa41b0c412202e86dc2a1d6bfd12e42ae3ee6f2affbee42c29de8925c6b00229bcf7bf7c1736adeb9edf5b0680beb'
+# ExLibrisApi::Application.config.secret_token = '7f67f2aa2d4f85ebcc6fd05093872d15d8aaa41b0c412202e86dc2a1d6bfd12e42ae3ee6f2affbee42c29de8925c6b00229bcf7bf7c1736adeb9edf5b0680beb'
+ExLibrisApi::Application.config.secret_key_base = '7f67f2aa2d4f85ebcc6fd05093872d15d8aaa41b0c412202e86dc2a1d6bfd12e42ae3ee6f2affbee42c29de8925c6b00229bcf7bf7c1736adeb9edf5b0680beb'
