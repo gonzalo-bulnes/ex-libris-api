@@ -1,6 +1,9 @@
 Ex Libris API
 =============
 
+[![Build Status](https://secure.travis-ci.org/gonzalo-bulnes/ex-libris-api.png?branch=master)](http://travis-ci.org/gonzalo-bulnes/ex-libris-api)
+[![Code Climate](https://codeclimate.com/github/gonzalo-bulnes/ex-libris-api.png)](https://codeclimate.com/github/gonzalo-bulnes/ex-libris-api)
+
 A collaborative library inventory tool (API).
 
 License

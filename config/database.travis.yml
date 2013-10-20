@@ -1,0 +1,12 @@
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: ex_libris_api_test
+  pool: 5
+  username: postgres
+  password:
+
+cucumber:
+  <<: *test
+
+# see .travis.yml
