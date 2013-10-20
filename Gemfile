@@ -8,6 +8,15 @@ gem 'rails-api'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# TDD
+group :development, :test do
+  gem 'rspec', :require => false
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', :require => false
+  gem 'mustache', :require => false
+  gem 'json_select', :require => false
+  gem 'cucumber-api-steps', :require => false
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
